@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+kafka:
+  consumer:
+    group_id: group_id
+    bootstarp_servers: localhost:9092
+    topic_name: exmaple-topic
+
